@@ -1,10 +1,14 @@
 import './App.css'
+import SignUpForm from './components/SignUpForm'
+import Authenticate from './components/Authenticate'
 
 function App() {
 
   return (
     <>
       <h1>Working</h1>
+      <SignUpForm />
+      <Authenticate />
     </>
   )
 }
